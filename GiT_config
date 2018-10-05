@@ -1,0 +1,291 @@
+BALAKK-IN+balakk@BALAKK-IN MINGW64 ~ (master)
+$ pwd
+/c/Users/balakk
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 ~ (master)
+$ cd
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 ~ (master)
+$ cd D:
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d
+$ dir
+$RECYCLE.BIN                 CMS_MEs              EMCCSTG.txt                 Links.txt              OEM13c\ New\ Features_NBO.pptx  Reporting          StickyNote.txt               VirtualBox\ VMs
+Agent_Upgrade                CMS_NOise_Red        EMDS                        LOB_Update             PAN_CARD                        Responsys          System\ Volume\ Information  VM_Files
+All_Impt_Docs                CMS_Noise_Reduction  EMDS\ collection\ Issues    marriage               Payslip                         Samsung\ J2        Target_Status_Issue          VM_Shared
+Automation                   DB_MES               EMDS_Collection_Automation  Me_LogFile_Monitoring  ph_bkp                          scpbi_all_targets  TaxReturn                    VM_Shared_Transiant
+Backup_ME_Migration_Scripts  Docs                 Find\ Partner\ Agent        ME_Migration           Putty_Log                       select\ \ photos   TBS_Monitor_ME               wd24
+BKP                          Docs_Pers            GiT                         MOS_Noise_Reduction    Python                          Shell_Script_trng  Temp_Logs                    Windows_Software
+Bookmarks                    DR_Parallel_Test     GitHub                      Movies                 python-3.6.1-embed-amd64        Softwares          test
+CAS\ Noise\ Reduction        DRIVERS              IDM_Migration               mysore\ 2017           python36._pth                   ssh_old_Keys       Trainings
+Claims_Aug                   EMCCSTG              Install_Agent.txt           New\ folder            PythonLib                       SSHKey-New         TwoWheelerInsurance
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d
+$ ls
+'$RECYCLE.BIN'/                 CMS_MEs/               EMCCSTG.txt                   Links.txt               'OEM13c New Features_NBO.pptx'   Reporting/           StickyNote.txt               'VirtualBox VMs'/
+ Agent_Upgrade/                 CMS_NOise_Red/         EMDS/                         LOB_Update/              PAN_CARD/                       Responsys/          'System Volume Information'/   VM_Files/
+ All_Impt_Docs/                 CMS_Noise_Reduction/  'EMDS collection Issues'/      marriage/                Payslip/                       'Samsung J2'/         Target_Status_Issue/          VM_Shared/
+ Automation/                    DB_MES/                EMDS_Collection_Automation/   Me_LogFile_Monitoring/   ph_bkp/                         scpbi_all_targets/   TaxReturn/                    VM_Shared_Transiant/
+ Backup_ME_Migration_Scripts/   Docs/                 'Find Partner Agent'/          ME_Migration/            Putty_Log/                     'select  photos'/     TBS_Monitor_ME/               wd24/
+ BKP/                           Docs_Pers/             GiT/                          MOS_Noise_Reduction/     Python/                         Shell_Script_trng/   Temp_Logs/                    Windows_Software/
+ Bookmarks/                     DR_Parallel_Test/      GitHub/                       Movies/                  python-3.6.1-embed-amd64/       Softwares/           test/
+'CAS Noise Reduction'/          DRIVERS/               IDM_Migration/               'mysore 2017'/            python36._pth                   ssh_old_Keys/        Trainings/
+ Claims_Aug/                    EMCCSTG/               Install_Agent.txt            'New folder'/             PythonLib/                      SSHKey-New/          TwoWheelerInsurance/
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d
+$ cd GiT
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT
+$ ls
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT
+$ pwd
+/d/GiT
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT
+$ git init
+Initialized empty Git repository in D:/GiT/.git/
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ ls
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ ls -ltra
+total 20
+drwxr-xr-x 1 BALAKK-IN+balakk 197121 0 Oct  4 21:20 ../
+drwxr-xr-x 1 BALAKK-IN+balakk 197121 0 Oct  5 09:37 ./
+drwxr-xr-x 1 BALAKK-IN+balakk 197121 0 Oct  5 09:37 .git/
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ cd .git
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT/.git (GIT_DIR!)
+$ ls
+config  description  HEAD  hooks/  info/  objects/  refs/
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT/.git (GIT_DIR!)
+$ cd ..
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ ls
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+winupdater.recentlyseenversion=2.19.0.windows.1
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git config --global user.name "balakk"
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git config --global user.email "balak03apr@gmail.com"
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+winupdater.recentlyseenversion=2.19.0.windows.1
+user.name=balakk
+user.email=balak03apr@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git remote add origin "https://github.com/balakkk/Project1.git"
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git pull origin master
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/balakkk/Project1
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ ls -ltr
+total 1
+-rw-r--r-- 1 BALAKK-IN+balakk 197121 25 Oct  5 11:13 README.md
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ cat README.md
+# Project1
+1st Project
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        New Text Document.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git add "New Text Document.txt"
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   New Text Document.txt
+
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git commit -m "SQL File"
+[master d889d8d] SQL File
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New Text Document.txt
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git commit -m "SQL File"
+On branch master
+nothing to commit, working tree clean
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git commit -m "SQL File"
+On branch master
+nothing to commit, working tree clean
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        New.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git add "New.txt"
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   New.txt
+
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git commit -m "SQL File"
+[master c2af024] SQL File
+ 1 file changed, 1 insertion(+)
+ create mode 100644 New.txt
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
+$ git push --all origin
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 475 bytes | 118.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/balakkk/Project1.git
+   ae3ae15..c2af024  master -> master
+
+BALAKK-IN+balakk@BALAKK-IN MINGW64 /d/GiT (master)
